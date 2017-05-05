@@ -1,5 +1,5 @@
-#Swift Tip
-##访问控制
+# Swift Tip
+## 访问控制
 
 类型|权限
 ---|---
@@ -22,4 +22,4 @@ func castOrThrow<T>(_ resultType: T.Type, _ object: Any) throws -> T {
 
 ```
 这个方法是一个全局方法，而不写权限默认使用的是`internal`，所以如果是直接将源码添加到工程的话，即满足在同个module下的概念，是可以用的。
-###听说使用好权限可以增加编译速度😱
+### 听说使用好权限可以增加编译速度😱
